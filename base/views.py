@@ -5,9 +5,9 @@ from django.views.generic import TemplateView
 # Create your views here.
 
 class HomeView(TemplateView):
-    template_name = 'home.html'
+    template_name = 'base/pages/home.html'
 class ContatosView(TemplateView):
-    template_name = 'contatos.html'
+    template_name = 'base/pages/contatos.html'
 class ProdutosView(TemplateView):
-    template_name = 'produtos.html'
+    template_name = 'base/pages/produtos.html'
     
