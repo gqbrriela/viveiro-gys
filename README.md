@@ -1,2 +1,2 @@
 # viveiro-gys
- projeto de p.i
+ projeto de programação para internet
