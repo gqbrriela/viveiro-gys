@@ -14,7 +14,15 @@
     <!--Inicio do Header-->
     {% include 'base/components/header.html' %}
     <!--Fim do Header-->
-    {% endblock header %} {%block conteudo %} {% endblock conteudo %}
+    {% endblock header %} 
+    
+    {%block conteudo %} 
+    <!--Inicio do Home-->
+    {% include 'base/pages/home.html' %}
+    
+    {% endblock conteudo %}
+    <!--Fim do Home-->
+    
     <!---->
     {%bootstrap_javascript %}
   </body>

@@ -1,12 +1,23 @@
-/*.minhas {
-  background-color: blue;
+.navbar-brand {
+  letter-spacing: 3px;
+  color: #4c6e42;
 }
 
-#meu {
-  background-color: blue;
+.navbar-brand:hover {
+	color: #4c6e42;
 }
 
-div {
-  background-color: blue;
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: #4c6e42;
 }
-*/
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #4c6e42;
+}
+
+.navbar-scrolled {
+  background-color: #ace4a1;
+}
+
