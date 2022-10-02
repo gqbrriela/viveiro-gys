@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Viveiro GYS</title>
+    <title>GYS</title>
     {% bootstrap_css %}
     <link rel="stylesheet" href="{% static 'style.css'%}" />
   </head>
@@ -13,8 +13,9 @@
     {% block header %}
     <!--Inicio do Header-->
     {% include 'base/components/header.html' %}
+    
+    {% endblock header %}
     <!--Fim do Header-->
-    {% endblock header %} 
     
     {%block conteudo %} 
     <!--Inicio do Home-->
