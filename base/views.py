@@ -10,4 +10,6 @@ class ContatosView(TemplateView):
     template_name = 'base/pages/contatos.html'
 class ProdutosView(TemplateView):
     template_name = 'base/pages/produtos.html'
+class CartView(TemplateView):
+    template_name = 'base/pages/cart.html'
     
