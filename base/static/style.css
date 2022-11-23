@@ -1,7 +1,7 @@
 /* Configurações de cores e fontes gerais do app Web */
 :root {
   --color-primary: #d6ebe3;
-  --color-secundary: #1f033f;
+  --color-secundary: #f1eef5;
   --color-emphasis: #04d939;
 
   --color-white: #fff;
@@ -59,7 +59,7 @@
  */
 
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(129, 77, 77, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }

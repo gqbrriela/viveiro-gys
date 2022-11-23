@@ -2,6 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.views.generic import TemplateView
 from django.contrib.auth.models import User
+from .models import Person
 
 # Create your views here.
 
@@ -22,6 +23,7 @@ def register(request):
         username = request.POST.get('username')
         email = request.POST.get('email')
         password = request.POST.get('password')
+        endereco = request.POST.get('endereco')
         
         #user = User.objects.filter('username').first()
         
@@ -29,7 +31,9 @@ def register(request):
         #    return render(request, "core/pages/permisson.html")
         #else:
         user = User.objects.create_user(username=username, email=email, password=password)
-        
+        user.save()
+        person = Person.objects.create(endereco = endereco, user = user)
+        person.save()
         return render(request, "home.html")
 
 
