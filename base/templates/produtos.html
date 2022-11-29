@@ -1,21 +1,35 @@
 {% load static %}
-<!--Navbar com a logo-->
-<nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="">
-      <img src="{% static 'images/logo.png' %}" width="120" height="120" class="d-inline-block align-top" alt="Logo GYS">
-    </a>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="btn btn-lg active" href="{% url 'home' %}" role="link" >HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-lg" href="{% url 'produtos' %}" role="link" >PRODUTOS</a>
-        </li>
-      </ul>
-      <div class="botoes">
-        <a id="cadastre-se" class="btn btn-lg" href="{% url 'cadastro' %}" role="link" >CADASTRE-SE</a>
+
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Viveiro GYS</title>
+
+    <!--Navbar com a logo-->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="">
+        <img src="{% static 'images/logo.png' %}" width="120" height="120" class="d-inline-block align-top" alt="Logo GYS">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="btn btn-lg active" href="{% url 'home' %}" role="link" >HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-lg" href="{% url 'produtos' %}" role="link" >PRODUTOS</a>
+          </li>
+        </ul>
+        <div class="botoes">
+          <a id="cadastre-se" class="btn btn-lg" href="{% url 'cadastro' %}" role="link" >CADASTRE-SE</a>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- Fim do Navbar da logo -->
+    </nav>
+    <!-- Fim do Navbar da logo -->
+  </head>

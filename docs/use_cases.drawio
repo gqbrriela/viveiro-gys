@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="XeqvZC_u2YZ2ldvRDNr8" name="Page-1">
-        <mxGraphModel dx="2031" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1469" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;" parent="1" vertex="1">
+                <mxCell id="2" value="usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="-560" y="370" width="100" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="" style="aspect=fixed;whiteSpace=wrap;html=1;textOpacity=70;" parent="1" vertex="1">
@@ -13,10 +13,10 @@
                 <mxCell id="5" value="&lt;h1&gt;viveiros: gys&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="30" y="143" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="fazer cadastro" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;" parent="1" vertex="1">
+                <mxCell id="12" value="fazer cadastro" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="-190" y="521" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="visualizar página principal" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;" parent="1" vertex="1">
+                <mxCell id="13" value="visualizar página principal" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="-193" y="283" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=13;fontColor=default;endArrow=none;endFill=0;strokeColor=default;startArrow=none;" parent="1" edge="1">
@@ -25,10 +25,10 @@
                         <mxPoint x="-134" y="602" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="fazer login" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;" parent="1" vertex="1">
+                <mxCell id="14" value="fazer login" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="-175" y="788" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="adicionar produtos ao carrinho" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;" parent="1" vertex="1">
+                <mxCell id="23" value="adicionar produtos ao carrinho" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="-191" y="404" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" style="edgeStyle=none;shape=connector;rounded=1;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=13;fontColor=default;endArrow=none;endFill=0;strokeColor=default;startArrow=none;" parent="1" edge="1">
@@ -37,19 +37,19 @@
                         <mxPoint x="-72.57359312880726" y="797.7157287525379" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="gerenciar perfil" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;" parent="1" vertex="1">
+                <mxCell id="24" value="gerenciar perfil" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="362" y="647" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" style="edgeStyle=none;shape=connector;rounded=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=13;fontColor=default;endArrow=classic;strokeColor=default;startArrow=none;" parent="1" source="31" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="realizar compras" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;" parent="1" vertex="1">
+                <mxCell id="25" value="realizar compras" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=13;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
                     <mxGeometry x="355" y="776" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="extend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=13;fontColor=default;" parent="1" vertex="1">
                     <mxGeometry x="100" y="810" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="" style="edgeStyle=none;shape=connector;rounded=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=13;fontColor=default;endArrow=none;strokeColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="31">
+                <mxCell id="32" value="" style="edgeStyle=none;shape=connector;rounded=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=13;fontColor=default;endArrow=none;strokeColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="356" y="815.5" as="sourcePoint"/>
                         <mxPoint x="180" y="830" as="targetPoint"/>
