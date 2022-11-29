@@ -10,8 +10,8 @@ class HomeView(TemplateView):
     template_name = 'home.html'
 class ContatosView(TemplateView):
     template_name = 'contatos.html'
-class ProdutosView(TemplateView):
-    template_name = 'produtos.html'
+class SobreView(TemplateView):
+    template_name = 'sobre.html'
 class CartView(TemplateView):
     template_name = 'cart.html'
 
