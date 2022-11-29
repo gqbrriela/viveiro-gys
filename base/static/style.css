@@ -1,8 +1,7 @@
 /* Configurações de cores e fontes gerais do app Web */
 :root {
-  --color-primary: #90d371;
-  --color-secundary: #f1eef5;
-  --color-emphasis: #04d939;
+  --color-primary: #407029;
+  --color-secundary: #4aad41;
 
   --color-white: #fff;
   --color-black: #000;
@@ -10,13 +9,110 @@
   --color-info-dark: #4d86c4;
   --color-debug-dark: #4d86c4;
   --color-success-dark: #4a9c5d;
-  --color-alert-dark: #927f40;
-  --color-warning-dark: #927f40;
-  --color-error-dark: #da525d;
+  --color-alert-dark: #ac8e2e;
+  --color-warning-dark: #a1862d;
+  --color-error-dark: #9e1b26;
 
   --font-primary: sans-serif;
   --font-headings: "Roboto Slab", serif;
 
-  --spacing-gutter-medium: 3rem;
-  --spacing-gutter-large: 4rem;
+  --spacing-gutter-medium: 2rem;
+  --spacing-gutter-large: 3rem;
+}
+/* Configurações de reset da página */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 60%;
+}
+
+body {
+  font-size: 1.6rem; /*16 px*/
+  font-family: var(--font-primary);
+  background-color: var(--color-secundary);
+  margin: auto;
+}
+
+.form_cadastro {
+  background-color: var(--color-white);
+  max-width: 500px;
+  display: block;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 50px 20px 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+input {
+  background-color: rgb(219, 219, 219);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 100px 3px 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: transparent;
+  position: relative;
+}
+
+.btn {
+  color: var(--color-white);
+  background: var(--color-primary);
+  font-weight: bold;
+  font-size: medium;
+  margin-right: 20px;
+}
+
+#icon {
+  max-width: 25%;
+  margin-top: 5%;
+  margin-right: 20%;
+  float: right;
+}
+
+#perfil {
+  background: var(--color-white);
+  margin-right: 50px;
+
+}
+
+#cadastre-se, #login{
+  background: var(--color-secundary);
+}
+
+.botoes {
+  margin-left: auto;
+}
+
+.navbar {
+  background: var(--color-white);
+}
+
+.navbar-brand {
+  font-size: 4rem;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-primary);
+}
+
+.form_cadastro h1{
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-secundary);
+  margin-bottom: 5%;  
+}
+
+.form_cadastro p {
+  font-size: 15px;
 }
