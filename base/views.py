@@ -15,6 +15,7 @@ class SobreView(TemplateView):
 class CartView(TemplateView):
     template_name = 'cart.html'
 
+
 def register(request):
     if request.method == 'GET':
         return render(request, "cadastro.html")
@@ -35,6 +36,21 @@ def register(request):
         person = Person.objects.create(endereco = endereco, user = user)
         person.save()
         return render(request, "home.html")
+
+def login(request):
+    if request.method == 'GET':
+        return render(request, "login.html")
+    else:
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        
+        user = authenticate(username=username, password=password)
+        
+        if user is not None:
+            login_django(request, user)
+            return redirect('home.html')         
+        else:
+            return HttpResponseRedirect(reverse('cadastro'))
 
 
 

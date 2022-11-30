@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import HomeView, ContatosView, SobreView, CartView, register
+from .views import HomeView, ContatosView, SobreView, CartView, register, login
 
 
 urlpatterns = [
@@ -10,5 +10,6 @@ urlpatterns = [
 
     #autenticação
     path('cadastro/', register, name = 'cadastro'),
+    path('login/', login, name = 'login'),
 ]
 
