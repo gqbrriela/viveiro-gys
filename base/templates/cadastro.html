@@ -35,71 +35,49 @@
     <!-- Fim do Navbar da logo -->
   </head>
   
-  <!-- Início do form de cadastro-->
-    <section id="register-user">
-    <div class="div-main d-flex text-center align-items-center">
-      <div class="col-lg-6 mx-auto">
-        <h1 class="display-5 fw-bold">Cadastrar Usuário</h1>
-
-        <form action="{% url 'cadastro' %}" method="POST">
-          {% csrf_token %}
-          <div class="mb-3">
-            <label class="form-label" for="typeText">Usuário</label>
-            <input
-              type="text"
-              id="typeText"
-              class="form-control"
-              placeholder="usuário..."
-              name="username"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label class="form-label" for="typeText">Endereço</label>
-            <input
-              type="text"
-              id="typeText"
-              class="form-control"
-              placeholder="endereço (rua, bairro, nº da casa/apt)"
-              name="endereco"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Endereço de E-mail</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="exemplo@exemplo.com"
-              name="email"
-              required
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Senha</label>
-            <input
-              type="password"
-              class="form-control"
-              id="exampleInputPassword1"
-              placeholder="senha..."
-              name="password"
-              required
-            />
-          </div>
-          <button type="submit" class="btn btn-primary">Cadastrar</button>
-        </form>
-      </div>
+    <!-- Início do form de cadastro-->
+  <div>
+    <div class="form_cadastro">
+    <h1 class="display-5 fw-bold">Cadastro</h1>
+      <form action="{% url 'cadastro' %}" method="POST">
+        {% csrf_token %}
+        <label for="nome">Nome:</label>
+        <br>
+        <input type="text" id=nomec placeholder="nome completo" name="username">
+        <br>
+        <br>
+        <label for="typeText">Endereço:</label>
+        <br>
+        <input type="text" id="typeText" placeholder="(rua, bairro, nº da casa/apt)" name="endereco">
+        <br>
+        <br>
+        <label for="exampleInputEmail1">Email:</label>
+        <br>
+        <input type="email" id=email placeholder="email@email.com" name="email">
+        <br>
+        <br>
+        <label for="passwd">Senha:</label>
+        <br>
+        <input type="password" id=passwd placeholder="Senha" name="password">
+        <br>
+        <br>
+        <button id="button_form" type="submit" class="btn btn-lg">Cadastrar-se</button>
+    </form>
     </div>
-  </section>
-<!-- Fim do formulário -->
-</div>
+    <!-- Fim do formulário -->
+  </div>
+  <!-- {% if request.user.is_authenticated %}
+  <h1>OK</h1>
+  {% else %}
+  <h1>ERRO</h1>
+  {% endif %} -->
+  <!-- Fim do bloco da página -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-</body>
-</html>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </body>
+  </html>
+
