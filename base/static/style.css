@@ -109,7 +109,7 @@ input {
 
 /*Carousel base class*/
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 /*Since positioning the image, we need to help out the caption*/
 .carousel-caption {
@@ -119,7 +119,7 @@ input {
 
 /*Declare heights because of positioning of img element*/
 .carousel-item {
-  height: 80rem;
+  height: 60rem;
   background-color: rgb(63, 61, 61);
 }
 .carousel-item > img {
@@ -136,11 +136,11 @@ input {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 5rem;
   text-align: center;
 }
 .marketing h2 {
-  font-weight: 400;
+  font-weight: 200;
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
