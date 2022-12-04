@@ -120,7 +120,7 @@ input {
   font-size: 15px;
 }
 
-/*Resto da página*/
+/*página home */
 .carousel {
   margin-bottom: 2rem;
 }
@@ -163,12 +163,14 @@ input {
   
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 100;
   line-height: 1;
   letter-spacing: -.05rem;
 }
+
+
+
 
 
 /* RESPONSIVE CSS
